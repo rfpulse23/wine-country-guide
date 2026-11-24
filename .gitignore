@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Data - keep raw exports out of git if they contain personal info
+data/processed/*.csv
+data/raw/*.xlsx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+.next/
+
+# OS
+.DS_Store
